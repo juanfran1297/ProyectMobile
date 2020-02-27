@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 758fca00cb928ed41bddd438515f72c9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - nuevoSuelo: {fileID: 3259429141211890349, guid: b7698c0f5c32e94459b92b9b9dc6e52e,
+      type: 3}
+  - nuevaRampa: {fileID: 7991715947580879554, guid: 346f2cdb43b4cc2478b817834db7bedd,
+      type: 3}
+  - obstaculo: {fileID: 700663490806962986, guid: 0f8fb8d3639283e4fa34592dd541f5cb,
+      type: 3}
+  - player: {instanceID: 0}
+  - posicionSpawnSuelo: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
