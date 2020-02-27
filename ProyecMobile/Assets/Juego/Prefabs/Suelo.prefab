@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4264829090090642342
 Transform:
@@ -247,11 +247,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SueloMesh
       objectReference: {fileID: 0}
-    - target: {fileID: 3259429140181770948, guid: b7698c0f5c32e94459b92b9b9dc6e52e,
-        type: 3}
-      propertyPath: m_Name
-      value: PosicionSpawnSuelo
-      objectReference: {fileID: 0}
     - target: {fileID: 3259429141211890345, guid: b7698c0f5c32e94459b92b9b9dc6e52e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -321,6 +316,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3259429140181770948, guid: b7698c0f5c32e94459b92b9b9dc6e52e,
+        type: 3}
+      propertyPath: m_Name
+      value: PosicionSpawnSuelo
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}

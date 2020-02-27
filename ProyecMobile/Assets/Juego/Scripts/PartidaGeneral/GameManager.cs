@@ -7,13 +7,6 @@ public class GameManager : MonoBehaviour
 {
     public PlayerController pControl;
     public GameObject panel;
-
-
-    private void Start()
-    {
-        Application.targetFrameRate = 60;
-    }
-
     public void Salir()
     {
         PlayerPrefs.DeleteKey("Points");

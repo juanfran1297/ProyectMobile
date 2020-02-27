@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MenuFinal : MonoBehaviour
 {
+
+    private void Start()
+    {
+        Application.targetFrameRate = 300;
+    }
     public void Salir()
     {
         PlayerPrefs.DeleteKey("Points");
