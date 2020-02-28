@@ -6,7 +6,16 @@ using UnityEngine.SceneManagement;
 public class Death : MonoBehaviour
 {
     public PowerUpsControllers powerUps;
+    public Canvas CanvasMuerte;
+    public Canvas CanvasPrincipal;
+    public Canvas CanvasPowerUps;
 
+    private void Start()
+    {
+        CanvasPrincipal.enabled = true;
+        CanvasPowerUps.enabled = true;
+        CanvasMuerte.enabled = false;
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (powerUps.invencible && other.tag == "Death")
@@ -23,6 +32,17 @@ public class Death : MonoBehaviour
 
     private void HasPerdido()
     {
-        SceneManager.LoadScene("Final");
+        CanvasPrincipal.enabled = false;
+        CanvasPowerUps.enabled = false;
+        CanvasMuerte.enabled = true;
+        Time.timeScale = 0;
+        //SceneManager.LoadScene("Final");
+    }
+
+    public void Continuas()
+    {
+        CanvasPrincipal.enabled = true;
+        CanvasPowerUps.enabled = true;
+        CanvasMuerte.enabled = false;
     }
 }

@@ -22,8 +22,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -55,6 +57,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -68,15 +74,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11412}
     - Class: 114
+      Script: {instanceID: 11464}
+    - Class: 114
       Script: {instanceID: 11514}
     - Class: 114
-      Script: {instanceID: 12136}
+      Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 12868}
+      Script: {instanceID: 12866}
     - Class: 114
-      Script: {instanceID: 13422}
+      Script: {instanceID: 13420}
     - Class: 114
-      Script: {instanceID: 13460}
+      Script: {instanceID: 13458}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -110,6 +118,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -125,13 +137,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11412}
     - Class: 114
-      Script: {instanceID: 12136}
+      Script: {instanceID: 11464}
     - Class: 114
-      Script: {instanceID: 12868}
+      Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 13422}
+      Script: {instanceID: 12866}
     - Class: 114
-      Script: {instanceID: 13460}
+      Script: {instanceID: 13420}
+    - Class: 114
+      Script: {instanceID: 13458}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -206,27 +220,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11464}
     - Class: 114
+      Script: {instanceID: 11514}
+    - Class: 114
       Script: {instanceID: 11534}
     - Class: 114
       Script: {instanceID: 11658}
     - Class: 114
-      Script: {instanceID: 11678}
+      Script: {instanceID: 11676}
     - Class: 114
-      Script: {instanceID: 11784}
+      Script: {instanceID: 11782}
     - Class: 114
-      Script: {instanceID: 11846}
+      Script: {instanceID: 11844}
     - Class: 114
-      Script: {instanceID: 11988}
+      Script: {instanceID: 11986}
     - Class: 114
-      Script: {instanceID: 12136}
+      Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 12514}
+      Script: {instanceID: 12512}
     - Class: 114
-      Script: {instanceID: 12848}
+      Script: {instanceID: 12846}
     - Class: 114
-      Script: {instanceID: 12868}
+      Script: {instanceID: 12866}
     - Class: 114
-      Script: {instanceID: 13460}
+      Script: {instanceID: 13420}
+    - Class: 114
+      Script: {instanceID: 13458}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -508,7 +526,7 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
-      Hash: cac4b7dcd447084b082a15922ceb3f14
+      Hash: bb4c2c2627a38a3339ba5abe43f5f2c8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Death
@@ -730,7 +748,7 @@ ScriptsOnlyBuild:
     className: ActivateTrigger
   - hash:
       serializedVersion: 2
-      Hash: 80d0e596646857e4b682a5e1c2ea7ed6
+      Hash: 888bb17a940656362a5b825b7336ff90
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PowerUpsControllers
@@ -1435,4 +1453,4 @@ ScriptsOnlyBuild:
   - Assets/Juego/ScenesGame/Inicio.unity
   - Assets/Juego/ScenesGame/Juego.unity
   - Assets/Juego/ScenesGame/Final.unity
-  playerPath: D:/ESI/Juan Francisco/ProyectoMovil.apk
+  playerPath: D:/ESI/Juan Francisco/Sky Jump.aab

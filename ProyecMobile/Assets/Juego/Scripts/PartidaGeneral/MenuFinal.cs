@@ -5,11 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MenuFinal : MonoBehaviour
 {
-
-    private void Start()
-    {
-        Application.targetFrameRate = 300;
-    }
     public void Salir()
     {
         PlayerPrefs.DeleteKey("Points");
@@ -20,5 +15,12 @@ public class MenuFinal : MonoBehaviour
     {
         PlayerPrefs.DeleteKey("Points");
         SceneManager.LoadScene("Juego");
+        Time.timeScale = 1;
+    }
+
+    public void Rendirse()
+    {
+        SceneManager.LoadScene("Final");
+        Time.timeScale = 1;
     }
 }

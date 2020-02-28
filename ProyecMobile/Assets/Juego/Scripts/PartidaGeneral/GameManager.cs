@@ -17,11 +17,13 @@ public class GameManager : MonoBehaviour
     {
         panel.SetActive(false);
         pControl.pausa = false;
+        Time.timeScale = 1;
     }
 
     public void Pause()
     {
         panel.SetActive(true);
         pControl.pausa = true;
+        Time.timeScale = 0;
     }
 }

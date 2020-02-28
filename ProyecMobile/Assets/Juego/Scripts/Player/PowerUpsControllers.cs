@@ -15,6 +15,9 @@ public class PowerUpsControllers : MonoBehaviour
 
     public bool invencible = false;
     public bool rotation = false;
+
+    public AudioClip powerUpSound;
+    public AudioSource audioSourceMesh;
     #endregion
 
     #region Variables timer
@@ -88,11 +91,13 @@ public class PowerUpsControllers : MonoBehaviour
             case "Invencible":
                 Invencible();
                 Destroy(other.gameObject);
+                audioSourceMesh.PlayOneShot(powerUpSound);
                 break;
 
             case "Rotation":
                 RotationScreen();
                 Destroy(other.gameObject);
+                audioSourceMesh.PlayOneShot(powerUpSound);
                 break;
         }
     }

@@ -13,7 +13,7 @@ public class ADSAMPLE : MonoBehaviour {
 	void Awake() { 
         //INICIALIZAMOS LOS ANUNCIOS:
 		if (Advertisement.isSupported) {
-				Advertisement.Initialize ("3426871");
+				Advertisement.Initialize ("3488151");
                 //Advertisement.Initialize ("3426871", true); Modo de prueba, utilizar el de arriba al momento de ir a produccion
         }
         else {
